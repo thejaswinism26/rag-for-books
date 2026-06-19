@@ -1,8 +1,6 @@
-📚 SecondMind – AI-Powered Personal Knowledge Library
+SecondMind – AI-Powered Personal Knowledge Library
 
 An AI-powered RAG system that transforms your personal book collection into a searchable second brain. Upload books, generate summaries, and ask natural language questions with answers grounded in the books you've read.
-
-🌟 Overview
 
 SecondMind is a Retrieval-Augmented Generation (RAG) application that helps you retain and interact with the knowledge from your personal library. Instead of manually searching through books or trying to remember where you read something, SecondMind indexes your collection and lets you query it conversationally.
 
@@ -11,15 +9,25 @@ The system retrieves relevant passages from your books and uses a reranking mode
 Whether you're studying, researching, or revisiting old books, SecondMind acts as a persistent AI assistant built around your own reading history.
 
 ✨ Features
+
 📖 Upload and organize your personal book library
+
 🤖 RAG-based question answering
+
 📝 AI-generated book summaries
+
 🔍 Semantic document retrieval
+
 🎯 Cross-encoder reranking for improved retrieval accuracy
+
 💬 Natural language conversations with your books
+
 🧠 Persistent knowledge base that grows with every book
+
 📚 Search across multiple books simultaneously
+
 ⚡ Fast and context-aware responses grounded in source material
+
 🏗️ System Architecture
                User Question
                      │
@@ -59,11 +67,11 @@ Instead of comparing embeddings independently, the reranker evaluates the query 
 The highest-scoring passages are selected as the final context for the LLM.
 
 Benefits include:
-
 Higher retrieval precision
 Better contextual relevance
 Fewer irrelevant chunks
 More accurate grounded responses
+
 3. Answer Generation
 
 The selected passages are provided to the LLM, which generates a response based only on the retrieved context, helping reduce hallucinations and improve factual consistency.
