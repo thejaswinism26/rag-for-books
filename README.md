@@ -28,26 +28,7 @@ Whether you're studying, researching, or revisiting old books, SecondMind acts a
 
 ⚡ Fast and context-aware responses grounded in source material
 
-🏗️ System Architecture
-               User Question
-                     │
-                     ▼
-          Semantic Vector Retrieval
-                     │
-                     ▼
-        Retrieve Top-K Candidate Chunks
-                     │
-                     ▼
-           Cross-Encoder Reranker
-                     │
-                     ▼
-         Select Most Relevant Chunks
-                     │
-                     ▼
-              Large Language Model
-                     │
-                     ▼
-        Grounded Answer / Summary
+
 🧠 Retrieval Pipeline
 
 Unlike a basic RAG system that directly feeds retrieved documents to an LLM, SecondMind includes a reranking stage.
